@@ -22,8 +22,5 @@ dependencies:
   - python >=3.6,<3.7
   - python-symengine=0.3.*
   - scipy
-  - tensorflow
-  - theano
-  - texlive-core
   - pip:
     - https://github.com/bollwyvl/sympy/archive/feat/parse_latex.tar.gz
