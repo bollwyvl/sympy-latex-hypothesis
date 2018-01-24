@@ -1,0 +1,29 @@
+name: sympy-latex-hypothesis
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - antlr-python-runtime>=4.7,<4.8
+  - antlr>=4.7,<4.8
+  - gmpy2
+  - hypothesis
+  - jupyterlab
+  - llvmlite
+  - matplotlib
+  - mpmath
+  - networkx
+  - numexpr
+  - numpy
+  - pandas
+  - pygraphviz
+  - pytest
+  - python >=3.6,<3.7
+  - python-symengine=0.3.*
+  - scipy
+  - tensorflow
+  - theano
+  - texlive-core
+  - pip:
+    - https://github.com/bollwyvl/sympy/archive/feat/parse_latex.tar.gz
