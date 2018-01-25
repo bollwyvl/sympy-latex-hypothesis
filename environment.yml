@@ -24,3 +24,4 @@ dependencies:
   - scipy
   - pip:
     - https://github.com/bollwyvl/sympy/archive/feat/parse_latex.tar.gz
+    - rise

@@ -1,0 +1,4 @@
+jupyter nbextension install --py --sys-prefix rise
+jupyter nbextension enable --py --sys-prefix rise
+jupyter labextension install --no-build "@jupyter-widgets/jupyterlab-manager@0.33.0"
+jupyter lab build
